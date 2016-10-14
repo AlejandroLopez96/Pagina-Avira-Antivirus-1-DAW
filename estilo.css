@@ -1,0 +1,276 @@
+﻿body{
+		background-image: url("imagenes/madera.jpg");
+	}
+
+h1 {
+	font-family:Arial; 
+	color:#cc0000; 
+	/*text-align:center; */
+	font-size:57px; 
+	padding-left:370px;
+	text-shadow: 2px 2px 2px black;
+	-webkit-animation: mymove 1s infinite;
+	animation: mymove 1s infinite;
+}
+	
+@-webkit-keyframes mymove {
+	50% {
+		-webkit-filter: grayscale(100%); 
+		filter: grayscale(100%);
+	}
+}
+
+@keyframes mymove {
+	50% {
+		-webkit-filter: grayscale(100%); 
+		filter: grayscale(100%);
+	}
+}
+
+img.a {
+	-webkit-animation: mymove 1s infinite;
+	animation: mymove 1s infinite;
+}
+
+@-webkit-keyframes mymove {
+	50% {
+		-webkit-filter: grayscale(100%); 
+		filter: grayscale(100%);
+	}
+}
+
+@keyframes mymove {
+	50% {
+		-webkit-filter: grayscale(100%); 
+		filter: grayscale(100%);
+	}
+}
+
+h2 {
+	color:black;
+	font-family: Ubuntu;
+	padding-left: 15px; 
+	line-height: 40px
+}
+h3 {
+	color:black;
+	font-family: Ubuntu;
+	padding-left: 15px; 
+	line-height: 40px
+}
+p {
+	color:black;
+	font-family: Ubuntu;
+	font-size: 18px;
+	padding-left: 25px; 
+	line-height: 40px;
+	text-align: justify;
+	padding-right: 35px; 
+}
+
+p.espacio {
+	color:black;
+	font-family: Ubuntu;
+	font-size: 18px;
+	padding-left: 60px; 
+	line-height: 40px;
+	text-align: justify;
+	padding-right: 35px; 
+}
+  
+img.b {
+	box-shadow: 5px 5px 5px #1a1a1a;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a.a:link {
+	color: hotpink;
+}
+
+a.a:visited {
+	color: blue;
+}
+
+a.a:hover {
+	color: red;
+}
+
+a.a:active {
+	color: green;
+}
+
+.s {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.social {
+	position: fixed;
+	left:0;
+	top: 200px;
+}
+.social ul {
+	list-style: none;
+}
+.social ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms;
+	-o-transition:all 500ms;
+	transition:all 500ms;
+	box-shadow: inset 0px 0px 7px black;
+}
+.social ul li .icon-facebook {background:#3b5998;}
+.social ul li .icon-twitter {background:#00abf0;}
+.social ul li .icon-google-plus {background:#d95232;}
+.social ul li .icon-youtube {background:#ff0000;}
+.social ul li .icon-mail2 {background:#666666;}
+
+.social ul li a:hover {
+	padding:10px 30px;
+	background:#000;
+}
+
+.p {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.subir {
+	position: fixed;
+	right:40px;
+	top: 200px;
+}
+.subir ul {
+	list-style: none;
+}
+.subir ul li a {
+	display: inline-block;
+	color:#fff;
+	background: #ff0000;
+	padding:10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+		box-shadow: inset 0px 0px 7px black;
+	text-decoration: none;
+	-webkit-transition:all 500ms;
+	-o-transition:all 500ms;
+	transition:all 500ms;
+}
+.subir ul li .icon-point-up {background:#800000;}
+
+.subir ul li a:hover {
+	padding:15px;
+	background:#ff0000;
+}
+
+#contenedor {
+    margin-left:12.5%;
+	margin-top:20px;
+    width: 1000px;  /* Ancho del contenedor */
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.content {
+	background: #FFA886;  /* Fondo del contenido */
+	position: relative;
+	width: 100%;
+	padding-top:10px;
+	padding-bottom: 1px;
+	margin-bottom:10px;
+	z-index: 5;
+	border-radius:20px 20px 20px 20px;
+	box-shadow:inset 0px 0px 10px black;
+}
+
+.menu ul{
+	padding-top:25px;
+	margin-left:9.5%;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {
+font-family: Ubuntu;
+font-size:17.82px;
+text-decoration: none;
+float:initial;
+padding: 10px;
+background-color: #eee;
+color: #888;
+border-radius: 10px 10px 10px 10px;
+}
+
+.menu ul li a.especial {
+font-family: Ubuntu;
+font-size:17.82px;
+text-decoration: none;
+float:initial;
+padding: 10px;
+background-color: #FFA886;
+color: black;
+border-radius: 10px 10px 10px 10px;
+box-shadow: inset 0px 0px 7px black;
+}
+
+.menu ul li a:hover {
+background: #ddd;
+color: #666;
+padding-bottom:12px;
+padding-top:12px;
+border-collapse:collapse;
+border: 1px solid black;
+}
+
+footer#foot {
+	background: #FFA886;  /* Fondo del contenido */
+	position: relative;
+	margin-left:12.5%;
+	margin-bottom:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width: 1000px;
+	z-index: 5;
+	border-radius:5px 5px 5px 5px;
+	text-align:center;
+	box-shadow: inset 0px 0px 7px black;
+}
+
+#contador {
+	width:92px;
+	height:35px;
+	margin-left:30px;
+	background-color:#FFA886;
+	font-family: Ubuntu;
+	font-size:17.82px;
+	box-shadow: inset 0px 0px 7px black;
+	border-radius:5px 5px 5px 5px;
+	float:left;
+	line-height:35px;
+}
